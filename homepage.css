@@ -53,20 +53,6 @@ main{
   position: fixed;
 }
 
-main:hover {
-  transform: scale(1.1);
-  box-shadow: 6px 6px 0 #53A2BE;
-  background: linear-gradient(45deg, #0a2239, #1c588f, #5c88b1);
-  opacity: 75%;
-  transition: transform 0.3s ease-in-out;
-}
-img{
-  height: 30vh;
-  width: 40vh;
-  object-fit: cover;
-  margin-left: 20vh;
-  position: relative;
-}
 
 .logo {
  display: flex;
@@ -75,9 +61,7 @@ img{
  margin-left: -25px;
 }
 
-svg{
-  height: 80px;
-}
+
 
 .message {
   margin-top : 5vh;

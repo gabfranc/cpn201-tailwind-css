@@ -6,6 +6,54 @@
   <title>About Us</title>
   <link rel="stylesheet" href="about.css">
   <script src="about.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+    screens: {
+      sm: '380px',
+      md: '568px',
+      lg: '776px',
+      xl: '1140px',
+    },
+    colors: {
+      'blue': '#93c5fd',
+      'blue-dark': '#1e40af',
+      'purple': '#a78bfa',
+      'purple-dark': '#7e22ce',
+      'pink': '#fca5a5',
+      'pink-dark': '#be185d',
+      'orange': '#fdba74',
+      'orange-dark': '#ea580c',
+      'green': '#13ce66',
+      'green-dark': '#166534',
+      'yellow': '#fde68a',
+      'yellow-dark': '#f59e0b',
+      'gray-dark': '#262626',
+      'gray': '#9ca3af',
+      'gray-light': '#d4d4d4',
+    },
+    spacing: {
+      '1xl': '15rem',
+      '8xl':'96rem',
+      '9xl': '100rem',
+    },
+    fontFamily: {
+      cursive: ['Patrick Hand', 'cursive'],
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+    extend: {
+      spacing: {
+        '128': '32rem',
+        '144': '36rem',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      }
+        }
+      }
+    }
+  </script>
 </head>
 <body>
   <header>
