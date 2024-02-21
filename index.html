@@ -19,6 +19,10 @@
         lg: '776px',
         xl: '1140px',
       },
+
+      size: {
+        full: '160px',
+      },
       colors: {
         'blue': '#93c5fd',
         'blue-dark': '#1e40af',
@@ -59,28 +63,21 @@
       }
     </script>
 </head>
-<body class="bg-blue-dark">
+<body class="box-content">
+  <a href="/About/about.html">
+ <section class="h-full w-full size-max absolute">
+  <div id="videoOne">
+    <video src="/Videos/HomeIntro.mp4" class="overflow-y-hidden" type="mp4" autoplay loop muted alt="House Video Intro Background"></video>
+    <video src="/Videos/House.mp4" class="overflow-y-hidden" type="mp4" autoplay loop muted alt="House Video Intro Background"></video>   
+  </div>
+  </section>
+<section class="bg-blue hover:bg-blue-dark hover:text-blue font-bold fixed flex margin-top:45">
+  <div id="info" class="mb-40">
+    <p>Let us help you find your perfect dream home?</p>
+    <p>find out how!</p>
+  </div>
 
-  <a href="../cpnt260-final-project/About/about.html">
-  <main>
-    <section class=" backdrop-grayscale text-center flex-col p-6 max-w-sm mx-auto bg-[#ede9fe] hover:animate-bounce active:animate-ping rounded-xl shadow-2xl shadow-sky-900 flex items-center space-x-4">
-
-      <a href="../cpnt260-final-project/About/about.html" class="mt-90 p-10 h-22">
-        <div class="shrink-0">
-          <img class="shrink-12" src="../Group 3 (1).png" alt="Logo">
-        </div>
-        <div class="message">
-          <p>Find your perfect forever home that <br> you've always dreamed of.</p>
-        </div>
-        <div class="link">
-          <p> Explore! </p>
-        </div>
-        </a>
-
-    </section>
-  </main>
- 
+</section>
 </a>
-
 </body>
 </html>
